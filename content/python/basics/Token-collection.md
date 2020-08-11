@@ -1,5 +1,5 @@
 ---
-title: "Template"
+title: "MOST COMMON"
 author: "Rakshmitha"
 date: 2020-08-11
 description: "-"
@@ -8,19 +8,13 @@ draft: false
 ---
 
 ```python
-print('Hello Toronto')
+from collections import Counter
 ```
-
-    Hello Toronto
-
 
 
 ```python
-print(2)
+most_common_tokens = Counter(' List_of_string ').most_common(20)
 ```
-
-    2
-
 
 
 ```python

@@ -16,14 +16,14 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Append list" />
+<meta property="og:title" content="NORMALIZE USING SPACY" />
 <meta property="og:description" content="-" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rakshmitha.github.io/mlnotes/python/basics/append/" /><meta property="article:published_time" content="2020-08-10T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2020-08-10T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/" /><meta property="article:published_time" content="2020-08-11T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-08-11T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Append list"/>
+<meta name="twitter:title" content="NORMALIZE USING SPACY"/>
 <meta name="twitter:description" content="-"/>
 <meta name="generator" content="Hugo 0.50" /> 
     
@@ -32,11 +32,11 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Append list",
-  "url": "https://rakshmitha.github.io/mlnotes/python/basics/append/",
-  "wordCount": "9",
-  "datePublished": "2020-08-10T00:00:00&#43;00:00",
-  "dateModified": "2020-08-10T00:00:00&#43;00:00",
+  "headline": "NORMALIZE USING SPACY",
+  "url": "https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/",
+  "wordCount": "80",
+  "datePublished": "2020-08-11T00:00:00&#43;00:00",
+  "dateModified": "2020-08-11T00:00:00&#43;00:00",
   "author": {
     "@type": "Person",
     "name": "Rakshmitha"
@@ -45,7 +45,7 @@
 }
 </script> 
 
-    <title>Append list</title>
+    <title>NORMALIZE USING SPACY</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -117,19 +117,26 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       
-    <h1 class="technical_note_title">Append list</h1>
+    <h1 class="technical_note_title">NORMALIZE USING SPACY</h1>
     <div class="technical_note_date">
-      <time datetime=" 2020-08-10T00:00:00Z "> 10 Aug 2020</time>
+      <time datetime=" 2020-08-11T00:00:00Z "> 11 Aug 2020</time>
     </div>
   </header>
   <div class="content">
-  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">list1</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">]</span>
-<span class="n">list1</span></code></pre></div>
-<pre><code>['a', 'b']
-</code></pre>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">list1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;c&#39;</span><span class="p">)</span>
-<span class="n">list1</span></code></pre></div>
-<pre><code>['a', 'b', 'c']
+  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">spacy</span>
+<span class="kn">from</span> <span class="nn">spacy.lang.en.stop_words</span> <span class="kn">import</span> <span class="n">STOP_WORDS</span>
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en&#39;</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">normalize</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">=</span><span class="p">[]</span>
+     <span class="c1">#for sent in doc.sents:</span>
+     <span class="c1">#   print(sent.text)</span>
+    <span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">doc</span><span class="p">:</span>        
+        <span class="k">if</span><span class="p">(</span><span class="n">token</span><span class="o">.</span><span class="n">is_stop</span> <span class="ow">or</span> <span class="n">token</span><span class="o">.</span><span class="n">is_digit</span> <span class="ow">or</span> <span class="n">token</span><span class="o">.</span><span class="n">is_punct</span> <span class="ow">or</span> <span class="n">token</span><span class="o">.</span><span class="n">is_oov</span><span class="p">):</span>
+            <span class="k">pass</span>
+        <span class="k">else</span><span class="p">:</span> 
+            <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="o">.</span><span class="n">lemma_</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">res</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">normalize</span><span class="p">(</span><span class="s1">&#39;spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython. The library is published under the MIT license and its main developers are Matthew Honnibal and Ines Montani, the founders of the software company Explosion.&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>[]
 </code></pre>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"></code></pre></div>
 </div>

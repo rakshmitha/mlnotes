@@ -1,5 +1,5 @@
 ---
-title: "Template"
+title: "VERSION CHECK"
 author: "Rakshmitha"
 date: 2020-08-11
 description: "-"
@@ -8,18 +8,10 @@ draft: false
 ---
 
 ```python
-print('Hello Toronto')
+!python --version
 ```
 
-    Hello Toronto
-
-
-
-```python
-print(2)
-```
-
-    2
+    Python 3.8.5
 
 
 

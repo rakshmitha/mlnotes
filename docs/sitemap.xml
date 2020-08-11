@@ -3,8 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/template/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/version-check/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rakshmitha.github.io/mlnotes/python/basics/append/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,13 +68,8 @@
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/template/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rakshmitha.github.io/mlnotes/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

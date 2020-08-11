@@ -6,10 +6,100 @@
     <description>Recent content on Rakshmitha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rakshmitha.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CLASSIFIERS</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</guid>
+      <description>from sklearn.naive_bayes import MultinomialNB from sklearn.naive_bayes import GaussianNB from sklearn.naive_bayes import BernoulliNB from sklearn.svm import SVC from sklearn.neural_network import MLPClassifier from sklearn.ensemble import AdaBoostClassifier from sklearn.tree import DecisionTreeClassifier from sklearn.ensemble import RandomForestClassifier from sklearn.ensemble import GradientBoostingClassifier from sklearn.linear_model import LogisticRegression from sklearn.model_selection import GridSearchCV from sklearn.metrics import f1_score, confusion_matrixclfs = { &amp;#39;mnb&amp;#39;: MultinomialNB(), &amp;#39;gnb&amp;#39;: GaussianNB(), &amp;#39;svm1&amp;#39;: SVC(kernel=&amp;#39;linear&amp;#39;), &amp;#39;svm2&amp;#39;: SVC(kernel=&amp;#39;rbf&amp;#39;), &amp;#39;svm3&amp;#39;: SVC(kernel=&amp;#39;sigmoid&amp;#39;), &amp;#39;mlp1&amp;#39;: MLPClassifier(), &amp;#39;mlp2&amp;#39;: MLPClassifier(hidden_layer_sizes=[100, 100]), &amp;#39;ada&amp;#39;: AdaBoostClassifier(), &amp;#39;dtc&amp;#39;: DecisionTreeClassifier(), &amp;#39;rfc&amp;#39;: RandomForestClassifier(), &amp;#39;gbc&amp;#39;: GradientBoostingClassifier(), &amp;#39;lr&amp;#39;: LogisticRegression() }f1_scores = dict() for clf_name in clfs: clf = clfs[clf_name] clf.</description>
+    </item>
+    
+    <item>
+      <title>CUSTOM LAMBDA</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</guid>
+      <description>import pandas as pddata = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df</description>
+    </item>
+    
+    <item>
+      <title>F1 SCORE</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</guid>
+      <description>from sklearn.metrics import f1_scorey_true = [0, 1, 2, 0, 1, 2] y_pred = [0, 2, 1, 0, 0, 1]y_true [0, 1, 2, 0, 1, 2]  y_pred [0, 2, 1, 0, 0, 1]  f1_score_1 = f1_score(y_true, y_pred, average = &amp;#39;macro&amp;#39;)f1_score_1 0.26666666666666666  f1_score_2 = f1_score(y_true, y_pred, average = &amp;#39;micro&amp;#39;)f1_score_2 0.3333333333333333  f1_score_3 = f1_score(y_true, y_pred, average = &amp;#39;weighted&amp;#39;)f1_score_3 0.26666666666666666  f1_score_4 = f1_score(y_true, y_pred, average = None)f1_score_4 array([0.8, 0. , 0.</description>
+    </item>
+    
+    <item>
+      <title>MOST COMMON</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</guid>
+      <description>from collections import Countermost_common_tokens = Counter(&amp;#39; List_of_string &amp;#39;).</description>
+    </item>
+    
+    <item>
+      <title>NORMALIZE USING SPACY</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</guid>
+      <description>import spacy from spacy.lang.en.stop_words import STOP_WORDS nlp = spacy.load(&amp;#39;en&amp;#39;)def normalize(msg): doc = nlp(msg) res=[] #for sent in doc.sents: # print(sent.text) for token in doc: if(token.is_stop or token.is_digit or token.is_punct or token.is_oov): pass else: res.append(token.lemma_.lower()) return resnormalize(&amp;#39;spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython. The library is published under the MIT license and its main developers are Matthew Honnibal and Ines Montani, the founders of the software company Explosion.</description>
+    </item>
+    
+    <item>
+      <title>REG PLOT</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</guid>
+      <description>import seaborn as snsa = [1,1,0,0,1,0,1,0,1,1,1,0,0] b = [0,0,1,0,1,0,1,1,0,0,0,1,1]sns.regplot(x = a, y = b , marker = &amp;#34;*&amp;#34;, color=&amp;#34;g&amp;#34;) &amp;lt;AxesSubplot:&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>TFIDF VECTORIZER</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</guid>
+      <description>import pandas as pd from sklearn.feature_extraction.text import TfidfVectorizertfidf_vectorizer = TfidfVectorizer()def feature_extraction(msg): mat = pd.DataFrame(tfidf_vectorizer.fit_transform(msg).toarray(),columns=tfidf_vectorizer.get_feature_names(),index=None) return mat</description>
+    </item>
+    
+    <item>
+      <title>TRAIN-TEST-SPLIT</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</guid>
+      <description>from sklearn.model_selection import train_test_splittrain_x,train_y, test_x,test_y = train_test_split(X, y, test_size=0.3) --------------------------------------------------------------------------- NameError Traceback (most recent call last) &amp;lt;ipython-input-4-b430128d85a3&amp;gt; in &amp;lt;module&amp;gt; ----&amp;gt; 1 train_x,train_y, test_x,test_y = train_test_split(X, y, test_size=0.3) NameError: name &#39;X&#39; is not defined  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/template/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/template/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>VERSION CHECK</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/version-check/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/version-check/</guid>
+      <description>!python --version Python 3.8.5  </description>
+    </item>
     
     <item>
       <title>Append list</title>
@@ -21,20 +111,20 @@
     </item>
     
     <item>
+      <title>METRICS</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</guid>
+      <description>from sklearn import metricsC=&amp;#34;Cat&amp;#34; F=&amp;#34;Fish&amp;#34; H=&amp;#34;Hen&amp;#34;y_true = [C,C,C,C,C,C, F,F,F,F,F,F,F,F,F,F, H,H,H,H,H,H,H,H,H] y_pred = [C,C,C,C,H,F, C,C,C,C,C,C,H,H,F,F, C,C,C,H,H,H,H,H,H]print(metrics.confusion_matrix(y_true, y_pred)) [[4 1 1] [6 2 2] [3 0 6]]  print(metrics.classification_report(y_true, y_pred, digits=3))  precision recall f1-score support Cat 0.308 0.667 0.421 6 Fish 0.667 0.200 0.308 10 Hen 0.667 0.667 0.667 9 accuracy 0.480 25 macro avg 0.547 0.511 0.465 25 weighted avg 0.581 0.480 0.464 25  </description>
+    </item>
+    
+    <item>
       <title>Simple Python</title>
       <link>https://rakshmitha.github.io/mlnotes/python/basics/simple-python/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rakshmitha.github.io/mlnotes/python/basics/simple-python/</guid>
-      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
-    </item>
-    
-    <item>
-      <title>Template</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/template/</link>
-      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/template/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
     </item>
     
