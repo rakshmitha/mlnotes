@@ -44,6 +44,83 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">pandas</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/python/pandas/").ByTitle }}
+                                {{ if ne .Title "Template" }}
+                                <li>
+                                    <a href="{{.Permalink}}">{{.Title}}</a>
+                                </li>
+                                {{ end }}    
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">plots</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/python/plots/").ByTitle }}
+                                {{ if ne .Title "Template" }}
+                                <li>
+                                    <a href="{{.Permalink}}">{{.Title}}</a>
+                                </li>
+                                {{ end }}    
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">sklearn</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/python/sklearn/").ByTitle }}
+                                {{ if ne .Title "Template" }}
+                                <li>
+                                    <a href="{{.Permalink}}">{{.Title}}</a>
+                                </li>
+                                {{ end }}    
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">spaCy</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/python/spaCy/").ByTitle }}
+                                {{ if ne .Title "Template" }}
+                                <li>
+                                    <a href="{{.Permalink}}">{{.Title}}</a>
+                                </li>
+                                {{ end }}    
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </main>

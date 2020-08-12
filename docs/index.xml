@@ -6,80 +6,179 @@
     <description>Recent content on Rakshmitha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rakshmitha.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>basic-bar-plot</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/basic-bar-plot/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/basic-bar-plot/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pddata = {&amp;#39;fruits&amp;#39;: [&amp;#39;apple&amp;#39;, &amp;#39;banana&amp;#39;, &amp;#39;mango&amp;#39;, &amp;#39;orange&amp;#39;], &amp;#39;price&amp;#39;:[4, 7, 12, 10]}df = pd.DataFrame(data) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    fruits price     0 apple 4   1 banana 7   2 mango 12   3 orange 10     plt.</description>
+    </item>
+    
+    <item>
+      <title>categorical-bar-plot.ipynb</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/categorical-bar-plot.ipynb/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/categorical-bar-plot.ipynb/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pddata = [[&amp;#39;Hello mate&amp;#39;, 0], [&amp;#39;xxXSADF&amp;#39;, 1], [&amp;#39;GG boys&amp;#39;, 0]] df = pd.DataFrame(data, columns=[&amp;#39;sentence&amp;#39;, &amp;#39;spam_ham&amp;#39;]) class_counts = pd.value_counts(df[&amp;#39;spam_ham&amp;#39;], sort = True) class_counts.plot(kind = &amp;#39;bar&amp;#39;, rot=0, color=[&amp;#39;blue&amp;#39;,&amp;#39;red&amp;#39;]) #Added colors as a list  plt.title(&amp;#39;Counts of Ham/Spam&amp;#39;) plt.xticks(range(2), [&amp;#39;Ham&amp;#39;, &amp;#39;Spam&amp;#39;]) plt.xlabel(&amp;#34;Class&amp;#34;) plt.ylabel(&amp;#34;Count&amp;#34;) Text(0, 0.5, &#39;Count&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>grid-spec</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/grid-spec/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/grid-spec/</guid>
+      <description>import matplotlib.pyplot as plt from matplotlib.pyplot import GridSpec fig2 = plt.figure(constrained_layout=True) spec2 = GridSpec(ncols=2, nrows=2, figure=fig2) f2_ax1 = fig2.add_subplot(spec2[0, 0]) f2_ax2 = fig2.add_subplot(spec2[0, 1]) f2_ax3 = fig2.add_subplot(spec2[1, 0]) f2_ax4 = fig2.add_subplot(spec2[1, 1]) </description>
+    </item>
+    
+    <item>
+      <title>histogram</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/histogram/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/histogram/</guid>
+      <description>import pandas as pd import matplotlib.pyplot as pltdef sent_length(message): return (len(message))data = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df[&amp;#39;len&amp;#39;] = df[&amp;#39;Sent&amp;#39;].apply(sent_length) plt.hist(df[&amp;#39;len&amp;#39;], bins=15) (array([1., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]), array([16. , 17.73333333, 19.46666667, 21.2 , 22.93333333, 24.66666667, 26.4 , 28.13333333, 29.86666667, 31.6 , 33.33333333, 35.06666667, 36.8 , 38.53333333, 40.26666667, 42. ]), &amp;lt;BarContainer object of 15 artists&amp;gt;)  </description>
+    </item>
+    
+    <item>
+      <title>horizontal-bar-chart</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/horizontal-bar-chart/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/horizontal-bar-chart/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pddata = {&amp;#39;fruits&amp;#39;: [&amp;#39;apple&amp;#39;, &amp;#39;banana&amp;#39;, &amp;#39;mango&amp;#39;, &amp;#39;orange&amp;#39;], &amp;#39;price&amp;#39;:[4, 7, 12, 10]}df = pd.DataFrame(data) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    fruits price     0 apple 4   1 banana 7   2 mango 12   3 orange 10     plt.</description>
+    </item>
+    
+    <item>
+      <title>joint-plot-matplotlib</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/joint-plot-matplotlib/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/joint-plot-matplotlib/</guid>
+      <description>import matplotlib.pyplot as plt plt.Figure.add_axes plt.Figure.add_subplot plt.Figure.add_gridspec plt.Axes.scatter plt.Axes.hist import numpy as npnp.random.seed(19680801) x = np.random.randn(1000) y = np.random.randn(1000)def scatter_hist(x, y, ax, ax_histx, ax_histy): # no labels ax_histx.tick_params(axis=&amp;#34;x&amp;#34;, labelbottom=False) ax_histy.tick_params(axis=&amp;#34;y&amp;#34;, labelleft=False) # the scatter plot: ax.scatter(x, y) # now determine nice limits by hand: binwidth = 0.25 xymax = max(np.max(np.abs(x)), np.max(np.abs(y))) lim = (int(xymax/binwidth) + 1) * binwidth bins = np.arange(-lim, lim + binwidth, binwidth) ax_histx.hist(x, bins=bins) ax_histy.hist(y, bins=bins, orientation=&amp;#39;horizontal&amp;#39;)left, width = 0.</description>
+    </item>
+    
+    <item>
+      <title>line-plot</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/line-plot/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/line-plot/</guid>
+      <description>import matplotlib.pyplot as plt import pandas as pddata1 = {&amp;#39;objects&amp;#39;: [&amp;#39;apple&amp;#39;, &amp;#39;banana&amp;#39;, &amp;#39;mango&amp;#39;, &amp;#39;orange&amp;#39;, &amp;#39;tomato&amp;#39;, &amp;#39;potato&amp;#39;], &amp;#39;price&amp;#39;:[4, 7, 12, 10, 9, 14]}plt.plot(data1[&amp;#39;objects&amp;#39;], data1[&amp;#39;price&amp;#39;]) [&amp;lt;matplotlib.lines.Line2D at 0x7fbe0e47da00&amp;gt;]  </description>
+    </item>
+    
+    <item>
+      <title>plotting-categories</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/plotting-categories/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/plotting-categories/</guid>
+      <description>import matplotlib.pyplot as pltdata = {&amp;#39;apple&amp;#39;: 4, &amp;#39;banana&amp;#39;: 7, &amp;#39;mango&amp;#39;: 12, &amp;#39;orange&amp;#39;: 10} fruit_names = list(data.keys()) prices = list(data.values())fig, ax = plt.subplots(1, 3, figsize=(9, 3), sharey=True) ax[0].bar(fruit_names, prices) ax[1].scatter(fruit_names, prices) ax[2].plot(fruit_names, prices) fig.suptitle(&amp;#39;Plottting Categories&amp;#39;) Text(0.5, 0.98, &#39;Plottting Categories&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>stacked-bar-graph</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/stacked-bar-graph/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/stacked-bar-graph/</guid>
+      <description>import matplotlib.pyplot as plt import numpy as np#With error bars N = 5 menMeans = (20, 35, 30, 35, 27) womenMeans = (25, 32, 34, 20, 25) menStd = (2, 3, 4, 1, 2) womenStd = (3, 5, 2, 3, 3) ind = np.arange(N) width = 0.35 p1 = plt.bar(ind, menMeans, width, yerr=menStd) p2 = plt.bar(ind, womenMeans, width, bottom=menMeans, yerr=womenStd) plt.ylabel(&amp;#39;Scores&amp;#39;) plt.title(&amp;#39;Scores by group and gender&amp;#39;) plt.xticks(ind, (&amp;#39;G1&amp;#39;, &amp;#39;G2&amp;#39;, &amp;#39;G3&amp;#39;, &amp;#39;G4&amp;#39;, &amp;#39;G5&amp;#39;)) plt.</description>
+    </item>
+    
+    <item>
+      <title>subplots</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/subplots/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/subplots/</guid>
+      <description>import matplotlib.pyplot as pltdata1 = {&amp;#39;objects&amp;#39;: [&amp;#39;apple&amp;#39;, &amp;#39;banana&amp;#39;, &amp;#39;mango&amp;#39;, &amp;#39;orange&amp;#39;, &amp;#39;tomato&amp;#39;, &amp;#39;potato&amp;#39;], &amp;#39;price&amp;#39;:[4, 7, 12, 10, 9, 14]}fig, ax = plt.subplots(2, 1, sharex=True) ax[0].bar(data1[&amp;#39;objects&amp;#39;], data1[&amp;#39;price&amp;#39;]) ax[1].plot(data1[&amp;#39;objects&amp;#39;], data1[&amp;#39;price&amp;#39;]) fig.suptitle(&amp;#39;Subplot example&amp;#39;) Text(0.5, 0.98, &#39;Subplot example&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>violin-plot</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/violin-plot/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/violin-plot/</guid>
+      <description>import matplotlib.pyplot as plt import numpy as npimport numpy as np np.random.seed(10) collectn_1 = np.random.normal(100, 10, 200) collectn_2 = np.random.normal(80, 30, 200) collectn_3 = np.random.normal(90, 20, 200) collectn_4 = np.random.normal(70, 25, 200) data_to_plot = [collectn_1, collectn_2, collectn_3, collectn_4] fig, ax = plt.subplots(1, 1) bp = ax.violinplot(data_to_plot) plt.show() </description>
+    </item>
+    
+    <item>
       <title>CLASSIFIERS</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/list-of-classifiers/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/list-of-classifiers/</guid>
       <description>from sklearn.naive_bayes import MultinomialNB from sklearn.naive_bayes import GaussianNB from sklearn.naive_bayes import BernoulliNB from sklearn.svm import SVC from sklearn.neural_network import MLPClassifier from sklearn.ensemble import AdaBoostClassifier from sklearn.tree import DecisionTreeClassifier from sklearn.ensemble import RandomForestClassifier from sklearn.ensemble import GradientBoostingClassifier from sklearn.linear_model import LogisticRegression from sklearn.model_selection import GridSearchCV from sklearn.metrics import f1_score, confusion_matrixclfs = { &amp;#39;mnb&amp;#39;: MultinomialNB(), &amp;#39;gnb&amp;#39;: GaussianNB(), &amp;#39;svm1&amp;#39;: SVC(kernel=&amp;#39;linear&amp;#39;), &amp;#39;svm2&amp;#39;: SVC(kernel=&amp;#39;rbf&amp;#39;), &amp;#39;svm3&amp;#39;: SVC(kernel=&amp;#39;sigmoid&amp;#39;), &amp;#39;mlp1&amp;#39;: MLPClassifier(), &amp;#39;mlp2&amp;#39;: MLPClassifier(hidden_layer_sizes=[100, 100]), &amp;#39;ada&amp;#39;: AdaBoostClassifier(), &amp;#39;dtc&amp;#39;: DecisionTreeClassifier(), &amp;#39;rfc&amp;#39;: RandomForestClassifier(), &amp;#39;gbc&amp;#39;: GradientBoostingClassifier(), &amp;#39;lr&amp;#39;: LogisticRegression() }f1_scores = dict() for clf_name in clfs: clf = clfs[clf_name] clf.</description>
     </item>
     
     <item>
       <title>CUSTOM LAMBDA</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</guid>
       <description>import pandas as pddata = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df</description>
     </item>
     
     <item>
       <title>F1 SCORE</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/f1-score/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/f1-score/</guid>
       <description>from sklearn.metrics import f1_scorey_true = [0, 1, 2, 0, 1, 2] y_pred = [0, 2, 1, 0, 0, 1]y_true [0, 1, 2, 0, 1, 2]  y_pred [0, 2, 1, 0, 0, 1]  f1_score_1 = f1_score(y_true, y_pred, average = &amp;#39;macro&amp;#39;)f1_score_1 0.26666666666666666  f1_score_2 = f1_score(y_true, y_pred, average = &amp;#39;micro&amp;#39;)f1_score_2 0.3333333333333333  f1_score_3 = f1_score(y_true, y_pred, average = &amp;#39;weighted&amp;#39;)f1_score_3 0.26666666666666666  f1_score_4 = f1_score(y_true, y_pred, average = None)f1_score_4 array([0.8, 0. , 0.</description>
     </item>
     
     <item>
       <title>MOST COMMON</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/spacy/token-collection/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/spacy/token-collection/</guid>
       <description>from collections import Countermost_common_tokens = Counter(&amp;#39; List_of_string &amp;#39;).</description>
     </item>
     
     <item>
       <title>NORMALIZE USING SPACY</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/spacy/normalize-using-spacy/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/spacy/normalize-using-spacy/</guid>
       <description>import spacy from spacy.lang.en.stop_words import STOP_WORDS nlp = spacy.load(&amp;#39;en&amp;#39;)def normalize(msg): doc = nlp(msg) res=[] #for sent in doc.sents: # print(sent.text) for token in doc: if(token.is_stop or token.is_digit or token.is_punct or token.is_oov): pass else: res.append(token.lemma_.lower()) return resnormalize(&amp;#39;spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython. The library is published under the MIT license and its main developers are Matthew Honnibal and Ines Montani, the founders of the software company Explosion.</description>
     </item>
     
     <item>
       <title>REG PLOT</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/regplot/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/regplot/</guid>
       <description>import seaborn as snsa = [1,1,0,0,1,0,1,0,1,1,1,0,0] b = [0,0,1,0,1,0,1,1,0,0,0,1,1]sns.regplot(x = a, y = b , marker = &amp;#34;*&amp;#34;, color=&amp;#34;g&amp;#34;) &amp;lt;AxesSubplot:&amp;gt;  </description>
     </item>
     
     <item>
       <title>TFIDF VECTORIZER</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/tfidf/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/tfidf/</guid>
       <description>import pandas as pd from sklearn.feature_extraction.text import TfidfVectorizertfidf_vectorizer = TfidfVectorizer()def feature_extraction(msg): mat = pd.DataFrame(tfidf_vectorizer.fit_transform(msg).toarray(),columns=tfidf_vectorizer.get_feature_names(),index=None) return mat</description>
     </item>
     
     <item>
       <title>TRAIN-TEST-SPLIT</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/train-test-split/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/train-test-split/</guid>
       <description>from sklearn.model_selection import train_test_splittrain_x,train_y, test_x,test_y = train_test_split(X, y, test_size=0.3) --------------------------------------------------------------------------- NameError Traceback (most recent call last) &amp;lt;ipython-input-4-b430128d85a3&amp;gt; in &amp;lt;module&amp;gt; ----&amp;gt; 1 train_x,train_y, test_x,test_y = train_test_split(X, y, test_size=0.3) NameError: name &#39;X&#39; is not defined  </description>
     </item>
     
@@ -89,6 +188,60 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rakshmitha.github.io/mlnotes/python/basics/template/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/template-pandas/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/template-pandas/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/template-copy1/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/template-copy1/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/plots/template/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/plots/template/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/template-copy1/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/template-copy1/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/spacy/template-copy1/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/spacy/template-copy1/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
     </item>
     
@@ -112,10 +265,10 @@
     
     <item>
       <title>METRICS</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/sklearn/confusion-matrix/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/sklearn/confusion-matrix/</guid>
       <description>from sklearn import metricsC=&amp;#34;Cat&amp;#34; F=&amp;#34;Fish&amp;#34; H=&amp;#34;Hen&amp;#34;y_true = [C,C,C,C,C,C, F,F,F,F,F,F,F,F,F,F, H,H,H,H,H,H,H,H,H] y_pred = [C,C,C,C,H,F, C,C,C,C,C,C,H,H,F,F, C,C,C,H,H,H,H,H,H]print(metrics.confusion_matrix(y_true, y_pred)) [[4 1 1] [6 2 2] [3 0 6]]  print(metrics.classification_report(y_true, y_pred, digits=3))  precision recall f1-score support Cat 0.308 0.667 0.421 6 Fish 0.667 0.200 0.308 10 Hen 0.667 0.667 0.667 9 accuracy 0.480 25 macro avg 0.547 0.511 0.465 25 weighted avg 0.581 0.480 0.464 25  </description>
     </item>
     

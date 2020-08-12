@@ -3,47 +3,132 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/list-of-classifiers/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/basic-bar-plot/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/categorical-bar-plot.ipynb/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/grid-spec/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/histogram/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/horizontal-bar-chart/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/joint-plot-matplotlib/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/line-plot/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/plotting-categories/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/stacked-bar-graph/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/subplots/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/violin-plot/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/list-of-classifiers/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/custom-lambda-dataframe/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/f1-score/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/f1-score/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/token-collection/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/spacy/token-collection/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/normalize-using-spacy/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/spacy/normalize-using-spacy/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/regplot/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/regplot/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/tfidf/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/tfidf/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/train-test-split/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/train-test-split/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rakshmitha.github.io/mlnotes/python/basics/template/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/template-pandas/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/template-copy1/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/plots/template/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/template-copy1/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/spacy/template-copy1/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/basics/confusion-matrix/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/sklearn/confusion-matrix/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,7 +154,7 @@
   
   <url>
     <loc>https://rakshmitha.github.io/mlnotes/</loc>
-    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
