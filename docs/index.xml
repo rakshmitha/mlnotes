@@ -6,10 +6,120 @@
     <description>Recent content on Rakshmitha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rakshmitha.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CREATE A DATAFRAME FROM DICT OF NDARRAYS OR LISTS</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-ndarrays-lists/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-ndarrays-lists/</guid>
+      <description>Create a DataFrame from Dict of ndarrays / Lists All the ndarrays must be of same length. If index is passed, then the length of the index should equal to the length of the arrays.
+If no index is passed, then by default, index will be range(n), where n is the array length.
+import pandas as pddata = {&amp;#39;Name&amp;#39;:[&amp;#39;Tom&amp;#39;, &amp;#39;Jack&amp;#39;, &amp;#39;Steve&amp;#39;, &amp;#39;Ricky&amp;#39;],&amp;#39;Age&amp;#39;:[28,34,29,42]} df = pd.DataFrame(data)df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .</description>
+    </item>
+    
+    <item>
+      <title>CREATE A DATAFRAME FROM LISTS</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-lists/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-lists/</guid>
+      <description>Create a DataFrame from Lists The DataFrame can be created using a single list or a list of lists.
+import pandas as pddata = [1,2,3,4,5] df = pd.DataFrame(data)df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    0     0 1   1 2   2 3   3 4   4 5     data = [[&amp;#39;Alex&amp;#39;,10],[&amp;#39;Bob&amp;#39;,12],[&amp;#39;Clarke&amp;#39;,13]] df = pd.</description>
+    </item>
+    
+    <item>
+      <title>CREATE AN EMPTY DATAFRAME</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-an-empty-dataframe/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-an-empty-dataframe/</guid>
+      <description> Create an Empty DataFrame A basic DataFrame, which can be created is an Empty Dataframe.
+import pandas as pddf = pd.DataFrame() df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }          </description>
+    </item>
+    
+    <item>
+      <title>Create a DataFrame from Dict of Series</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-series/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-series/</guid>
+      <description>Dictionary of Series can be passed to form a DataFrame. The resultant index is the union of all the series indexes passed.
+import pandas as pdd = {&amp;#39;one&amp;#39; : pd.Series([1, 2, 3], index=[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]), &amp;#39;two&amp;#39; : pd.Series([1, 2, 3, 4], index=[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;])}df = pd.DataFrame(d)df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    one two     a 1.</description>
+    </item>
+    
+    <item>
+      <title>Create a DataFrame from List of Dicts</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-list-of-dicts/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-list-of-dicts/</guid>
+      <description>Create a DataFrame from List of Dicts List of Dictionaries can be passed as input data to create a DataFrame. The dictionary keys are by default taken as column names.
+import pandas as pddata = [{&amp;#39;a&amp;#39;: 1, &amp;#39;b&amp;#39;: 2},{&amp;#39;a&amp;#39;: 5, &amp;#39;b&amp;#39;: 10, &amp;#39;c&amp;#39;: 20}] df = pd.DataFrame(data)df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    a b c     0 1 2 NaN   1 5 10 20.</description>
+    </item>
+    
+    <item>
+      <title>DEFINING A DATAFRAME OBJECT</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/defining-a-dataframe-object/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/defining-a-dataframe-object/</guid>
+      <description>Pandas Dataframe A pandas dataframe is an extension of the Panda Series to have n-dimensions. This allows for a robust tabular structure of acccessing data. Much like a matrix, we can apply transformations to a dataframe as we would on a matrix.Below is an example of defining a dataframe object.
+Defining a Dataframe Object import pandasdf = pd.DataFrame( {&amp;#39;Country&amp;#39;: [&amp;#39;USA&amp;#39;, &amp;#39;Canada&amp;#39;, &amp;#39;Mexico&amp;#39;], &amp;#39;Population&amp;#39;: [325, 36, 127], &amp;#39;Year&amp;#39;: [2018, 2017, 2017]}) df as pddf = pd.</description>
+    </item>
+    
+    <item>
+      <title>Pandas Series Object</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/series/pandas-series-object/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/series/pandas-series-object/</guid>
+      <description>import numpy as np import pandas as pddata = pd.Series([0.25, 0.5, 0.75, 1.0])data 0 0.25 1 0.50 2 0.75 3 1.00 dtype: float64  Series wraps both a sequence of values and a sequence of indices, which we can access with the values and index attributes.
+data.values array([0.25, 0.5 , 0.75, 1. ])  The index is an array-like object of type pd.Index
+data.index RangeIndex(start=0, stop=4, step=1)  data can be accessed by the associated index via the square-bracket notation</description>
+    </item>
+    
+    <item>
+      <title>SELECTION, ADDITION, DELETION</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/column-selection-addition-deletion/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/column-selection-addition-deletion/</guid>
+      <description>Selection import pandas as pdd = {&amp;#39;one&amp;#39; : pd.Series([1, 2, 3], index=[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]), &amp;#39;two&amp;#39; : pd.Series([1, 2, 3, 4], index=[&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;])}df = pd.DataFrame(d)df [&amp;#39;one&amp;#39;] a 1.0 b 2.0 c 3.0 d NaN Name: one, dtype: float64  Addition Adding a new column by passing as Series
+df[&amp;#39;three&amp;#39;]=pd.Series([10,20,30],index=[&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;])df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    one two three     a 1.</description>
+    </item>
+    
+    <item>
+      <title>Scalar/Linear Transformation</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/series/scalar-or-linear-transformation/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/series/scalar-or-linear-transformation/</guid>
+      <description>import pandas as pdx_list = [1, 2, 3, 4, 5] x_array = pd.Series([1,2,3,4,5])print( x_list * 3, &amp;#34;\n&amp;#34;, x_array * 3)  [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5] 0 3 1 6 2 9 3 12 4 15 dtype: int64  </description>
+    </item>
+    
+    <item>
+      <title>initialize a series</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/series/initialize-a-series/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/series/initialize-a-series/</guid>
+      <description>Series A series is a one-dimensional vector that contains an array of data.
+import pandas as pds = pd.Series([1, 2, 3, 4, 5])s 0 1 1 2 2 3 3 4 4 5 dtype: int64  The output from the above initialization is a one-dimensional matrix with indexing on integers to allow for accessing specific locations of the array values. We can alter the indexes to our own naming as follows</description>
+    </item>
+    
+    <item>
+      <title>COLUMN RENAME</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/column-rename/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/column-rename/</guid>
+      <description>import pandas as pddata = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    Sent     0 Vachitaya aapuuuuuuuuu   1 Sing in the rain   2 Great power comes wih great responsibility     df.</description>
+    </item>
     
     <item>
       <title>basic-bar-plot</title>

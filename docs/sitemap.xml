@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-ndarrays-lists/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-lists/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-an-empty-dataframe/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-dict-of-series/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/create-a-dataframe-from-list-of-dicts/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/defining-a-dataframe-object/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/series/pandas-series-object/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/column-selection-addition-deletion/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/series/scalar-or-linear-transformation/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/series/initialize-a-series/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/column-rename/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rakshmitha.github.io/mlnotes/python/plots/basic-bar-plot/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
   </url>
@@ -164,7 +219,7 @@
   
   <url>
     <loc>https://rakshmitha.github.io/mlnotes/</loc>
-    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
