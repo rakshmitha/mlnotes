@@ -121,11 +121,11 @@
     
     <item>
       <title>CUSTOM LAMBDA</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/custom-lambda-dataframe/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</guid>
-      <description>import pandas as pddata = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df</description>
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/custom-lambda-dataframe/</guid>
+      <description>import pandas as pddata = [&amp;#39;Vachitaya aapuuuuuuuuu&amp;#39;,&amp;#39;Sing in the rain&amp;#39; ,&amp;#39;Great power comes wih great responsibility&amp;#39;] df = pd.DataFrame(data, columns = [&amp;#39;Sent&amp;#39;]) df  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    Sent     0 Vachitaya aapuuuuuuuuu   1 Sing in the rain   2 Great power comes wih great responsibility     </description>
     </item>
     
     <item>
@@ -193,10 +193,28 @@
     
     <item>
       <title>Template</title>
-      <link>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</link>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/template-pandas-dataframe/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</guid>
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/template-pandas-dataframe/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-copy1/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-copy1/</guid>
+      <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-pandas-series/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-pandas-series/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
     </item>
     

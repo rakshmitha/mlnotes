@@ -57,6 +57,43 @@
                                 </li>
                                 {{ end }}    
                             {{ end }}
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <h4 class="card-header">Dataframe</h4>
+                                        <div class="card-body">
+                                            <ul>
+                                                {{ range (where .Pages "File.Dir" "in" "/python/pandas/Dataframe").ByTitle }}
+                                                    {{ if ne .Title "Template" }}
+                                                    <li>
+                                                        <a href="{{.Permalink}}">{{.Title}}</a>
+                                                    </li>
+                                                    {{ end }}    
+                                                {{ end }}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <h4 class="card-header">Series</h4>
+                                        <div class="card-body">
+                                            <ul>
+                                                {{ range (where .Pages "File.Dir" "in" "/python/pandas/Series").ByTitle }}
+                                                    {{ if ne .Title "Template" }}
+                                                    <li>
+                                                        <a href="{{.Permalink}}">{{.Title}}</a>
+                                                    </li>
+                                                    {{ end }}    
+                                                {{ end }}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </ul>
                     </div>
                 </div>

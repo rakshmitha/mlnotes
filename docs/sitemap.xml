@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/custom-lambda-dataframe/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,7 +103,17 @@
   </url>
   
   <url>
-    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/template-copy1/</loc>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/dataframe/template-pandas-dataframe/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-copy1/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rakshmitha.github.io/mlnotes/python/pandas/series/template-pandas-series/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url>
   
