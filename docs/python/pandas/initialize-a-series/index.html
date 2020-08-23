@@ -16,14 +16,14 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="CUSTOM LAMBDA" />
+<meta property="og:title" content="initialize a series" />
 <meta property="og:description" content="-" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/" /><meta property="article:published_time" content="2020-08-11T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2020-08-11T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://rakshmitha.github.io/mlnotes/python/pandas/initialize-a-series/" /><meta property="article:published_time" content="2020-08-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-08-13T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CUSTOM LAMBDA"/>
+<meta name="twitter:title" content="initialize a series"/>
 <meta name="twitter:description" content="-"/>
 <meta name="generator" content="Hugo 0.50" /> 
     
@@ -32,11 +32,11 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "CUSTOM LAMBDA",
-  "url": "https://rakshmitha.github.io/mlnotes/python/pandas/custom-lambda-dataframe/",
-  "wordCount": "62",
-  "datePublished": "2020-08-11T00:00:00&#43;00:00",
-  "dateModified": "2020-08-11T00:00:00&#43;00:00",
+  "headline": "initialize a series",
+  "url": "https://rakshmitha.github.io/mlnotes/python/pandas/initialize-a-series/",
+  "wordCount": "82",
+  "datePublished": "2020-08-13T00:00:00&#43;00:00",
+  "dateModified": "2020-08-13T00:00:00&#43;00:00",
   "author": {
     "@type": "Person",
     "name": "Rakshmitha"
@@ -45,7 +45,7 @@
 }
 </script> 
 
-    <title>CUSTOM LAMBDA</title>
+    <title>initialize a series</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -117,52 +117,30 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       
-    <h1 class="technical_note_title">CUSTOM LAMBDA</h1>
+    <h1 class="technical_note_title">initialize a series</h1>
     <div class="technical_note_date">
-      <time datetime=" 2020-08-11T00:00:00Z "> 11 Aug 2020</time>
+      <time datetime=" 2020-08-13T00:00:00Z "> 13 Aug 2020</time>
     </div>
   </header>
   <div class="content">
-  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Vachitaya aapuuuuuuuuu&#39;</span><span class="p">,</span><span class="s1">&#39;Sing in the rain&#39;</span> <span class="p">,</span><span class="s1">&#39;Great power comes wih great responsibility&#39;</span><span class="p">]</span>  
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Sent&#39;</span><span class="p">])</span>
-<span class="n">df</span></code></pre></div>
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+  
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+<h1 id="series">Series</h1>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Sent</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Vachitaya aapuuuuuuuuu</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Sing in the rain</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Great power comes wih great responsibility</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p>A series is a one-dimensional vector that contains an array of data.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span></code></pre></div>
+<pre><code>0    1
+1    2
+2    3
+3    4
+4    5
+dtype: int64
+</code></pre>
+
+<p>The output from the above initialization is a one-dimensional matrix with indexing on integers to allow for accessing specific locations of the array values. We can alter the indexes to our own naming as follows</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">])</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span></code></pre></div>
+<pre><code>['a', 'b', 'c', 'd', 'e']
+</code></pre>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"></code></pre></div>
 </div>
   <aside>
